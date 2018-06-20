@@ -1,0 +1,14 @@
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.layout {
+  display: flex;
+
+  .main-container {
+    overflow: auto;
+    height: 100vh;
+    width: 100%;
+    margin: $main-container-margin
+  }
+
+}

@@ -1,0 +1,47 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.layout {
+  .navbar {
+    min-width: $navbar-sidebar-width;
+    height: 100vh;
+    top: 0;
+    align-items: start;
+
+    .navbar-brand {
+      margin-top: 20px;
+      margin-bottom: 50px;
+
+      img {
+        width: 55px;
+        margin-left: 15px;
+      }
+    }
+
+    .nav {
+      .nav-item {
+        font-weight: 200;
+
+        a {
+          color: $gray-600;
+        }
+
+        a:hover {
+          color: $gray-500;
+        }
+
+        a.active {
+          color: $gray-200;
+        }
+
+        i.fa {
+          margin-right: 10px;
+        }
+      }
+
+      .nav-link {
+        color: $light;
+      }
+    }
+  }
+}
