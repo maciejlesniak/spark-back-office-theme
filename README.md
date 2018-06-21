@@ -1,7 +1,8 @@
 # Spark Bootstrap 4 Dashboard Theme
 ### Bootstrap 4 Admin Theme
 
-![Alt text](docs/images/index.png)
+![Main layout](docs/images/index.png)
+![Sign in layout](docs/images/signin.png)
 
 ### Project structure
 
